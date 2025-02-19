@@ -12,7 +12,7 @@ app.post('/', (req, res) => {
     console.log(req.body);
 
     res.send({
-        msg: "2 + 2 =
+        msg: "2 + 2 = 4"
     }
     )
 })
